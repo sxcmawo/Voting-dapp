@@ -6,11 +6,11 @@ module.exports = {
   solidity: "0.8.19",
   networks: {
     bsctestnet: {
-      url: process.env.RPC_URL,
-      accounts: [process.env.PRIVATE_KEY]
+      url: "https://bsc-testnet.publicnode.com",
+      accounts: "5711b04c8da9ee5ef178f965ac931d6888be87af2900fa403b7d01cfd36901aa"
     }
   },
   etherscan: {
-    apiKey: process.env.API_KEY,
+    apiKey: "S56CI774RF9RZZHFCUHDJUSSD43DQEXIZC",
   }
 };
