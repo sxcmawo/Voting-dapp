@@ -19,7 +19,7 @@ const addTheCandidate = document.querySelector('#addTheCandidate');
 
 
 //configuring ethers
-const contractAddress = '0xB819d360F1C4F963651c27FE0A052aef5a49012C';
+const contractAddress = '0xA33D4dA588b6F1b29F3cE1759D0b6CaF9A793B2c';
 const contractABI = [
   {
     "inputs": [],
@@ -343,11 +343,11 @@ const refreshPage = function() {
 
         if(time > 0){
             timerMessage.innerHTML = `<span id="time">${time}</span> seconds left.`
-            voteForm.style.display = 'flex';
+            voteForm.style.display = "flex";
             showResultContainer.style.display = 'none';
         } else {
             timerMessage.textContent = "Either there is no election yet or election already ended.";
-            voteForm.style.display = 'none';
+            voteForm.style.display = "none";
             showResultContainer.style.display = 'block';
         }
     }, 10000);
